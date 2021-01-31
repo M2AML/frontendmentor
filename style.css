@@ -1,0 +1,48 @@
+/* RESET */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-size: 15px;
+}
+/* MAIN */
+main {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION*/ 
+section {
+    display: flex;
+    justify-content: space-between;
+}
+section ul:first-child {
+    font-weight: 700;
+    background-color: red;
+    width: 40%;
+}
+section ul:last-child {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 50%;
+}/*
+section ul:last-child li {
+    
+}*/
