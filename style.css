@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 /* GENERAL */
 html {
     font-family: 'Spartan', sans-serif;
@@ -15,13 +14,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-=======
-.container {
-    min-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
->>>>>>> e4e9bfe511e1704af2947d4ca927dcc348ae5f19
     align-items: center;
 }
 ul {
@@ -29,7 +21,6 @@ ul {
 }
 body {
     font-size: 15px;
-<<<<<<< HEAD
     background-color:  hsl(300, 24%, 96%);
     overflow: hidden;
 }
@@ -45,8 +36,6 @@ body {
 }
 .mobile {
     display: none;
-=======
->>>>>>> e4e9bfe511e1704af2947d4ca927dcc348ae5f19
 }
 /* MAIN */
 main {
@@ -54,11 +43,7 @@ main {
     height: 70vh;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     justify-content: space-evenly;
-=======
-    justify-content: center;
->>>>>>> e4e9bfe511e1704af2947d4ca927dcc348ae5f19
     align-items: center;
 }
 
@@ -66,7 +51,6 @@ main {
 section {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     margin: 2%;
 }
 section h1 {
@@ -228,7 +212,7 @@ article ul li .comment {
     }
 }
 
-@media screen and (min-width: 0) and (max-width: 450px ){
+@media screen and (min-width: 0) and (max-width: 499px ){
 
     .pattern-top, .pattern-bottom {
         display: none;
@@ -300,20 +284,3 @@ article ul li .comment {
         padding: 7%;
     }
 }
-=======
-}
-section ul:first-child {
-    font-weight: 700;
-    background-color: red;
-    width: 40%;
-}
-section ul:last-child {
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-    width: 50%;
-}/*
-section ul:last-child li {
-    
-}*/
->>>>>>> e4e9bfe511e1704af2947d4ca927dcc348ae5f19
