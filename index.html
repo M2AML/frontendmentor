@@ -5,56 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Social proof section</title>
 </head>
 
 <body>
+    <img class="pattern-top" src="./images/bg-pattern-top-desktop.svg" alt="pattern-top-desktop">
+    <img class="pattern-bottom" src="./images/bg-pattern-bottom-desktop.svg" alt="pattern-bottom-desktop">
+    <div class="mobile">
+        <img src="./images/bg-pattern-top-mobile.svg" alt="">
+        <img src="./images/bg-pattern-bottom-mobile.svg" alt="">
+    </div>
     <div class="container">
         <main>
             <section>
                 <ul>
                     <li>
-                        <h1>10,000+ of our users love our products.</h1>
+                        <h1><span>10,000+</span> of our users love our products.</h1>
                         <p>We only provide great products combined with excellent customer service.
                             See what our satisfied customers are saying about our services.
                         </p>
                     </li>
                 </ul>
                 <ul>
-                    <li><img src="./images/icon-star.svg" alt="icon-star"> Rated 5 Stars in Reviews</li>
-                    <li><img src="./images/icon-star.svg" alt="icon-star"> Rated 5 Stars in Report Guru</li>
-                    <li><img src="./images/icon-star.svg" alt="icon-star"> Rated 5 Stars in BestTech</li>
+                    <li>
+                        <div>
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                        </div> Rated 5 Stars in Reviews
+                    </li>
+                    <li>
+                        <div class="stars">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                        </div>
+                        Rated 5 Stars in Report Guru
+                    </li>
+                    <li>
+                        <div class="stars">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                            <img src="./images/icon-star.svg" alt="icon-star">
+                        </div>
+                        Rated 5 Stars in BestTech
+                    </li>
                 </ul>
             </section>
             <article>
                 <ul>
                     <li>
-                        <h2><img src="./images/image-colton.jpg" alt="profile image">Colton Smith <br>
-                            <span>Verified Buyer</span> </h2>
-                        <p>"We needed the same printed design as the one we had ordered a week prior.
+                        <div class="profile">
+                            <img src="./images/image-colton.jpg" alt="profile image">
+                            <div class="name">
+                                <p>Colton Smith</p>
+                                <p>Verified Buyer </p>
+                            </div>
+                        </div>
+                        <p class="comment">"We needed the same printed design as the one we had ordered a week prior.
                             Not only did they find the original order, but we also received it in time.
                             Excellent!"</p>
                     </li>
                     <li>
-                        <h2><img src="./images/image-irene.jpg" alt="profile image">Irene Roberts <br>
-                            <span>Verified Buyer</span> </h2>
-                        <p>"Customer service is always excellent and very quick turn around. Completely
+                        <div class="profile"><img src="./images/image-irene.jpg" alt="profile image">
+                            <div class="name">
+                                <p>Irene Roberts</p>
+                                <p>Verified Buyer</p>
+                            </div>
+                        </div>
+                        <p class="comment">"Customer service is always excellent and very quick turn around. Completely
                             delighted with the simplicity of the purchase and the speed of delivery."</p>
                     </li>
                     <li>
-                        <h2><img src="./images/image-anne.jpg" alt="profile image">Anne Wallace <br>
-                            <span>Verified Buyer</span> </h2>
-                        <p>"Put an order with this company and can only praise them for the very high
+                        <div class="profile"><img src="./images/image-anne.jpg" alt="profile image">
+                            <div class="name">
+                                <p>Anne Wallace</p>
+                                <p>Verified Buyer</p>
+                            </div>
+                        </div>
+                        <p class="comment">"Put an order with this company and can only praise them for the very high
                             standard. Will definitely use them again and recommend them to everyone!"</p>
                     </li>
                 </ul>
             </article>
-            <footer>Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
-                    Mentor</a>.
-                Coded by <a href="#">M2AML</a>.
-            </footer>
         </main>
+        <footer>
+            <p>
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">M2AML</a>.
+            </p>
+        </footer>
     </div>
 </body>
 
